@@ -70,10 +70,10 @@ Today I am publishing AI Police as an open public-interest repository for lawful
 
 The repository includes governance documentation, a runnable Python baseline, API and UI layers, deployment options, and optional database support. It is designed for public review, local verification, and jurisdiction-aware adaptation before any live institutional rollout.
 
-Project link: [your-repository-url]
+Project link: https://github.com/infinitebayas/ai_police
 
 ## Suggested Short Announcement Post
 
 AI Police is now public: an open, support-first, law-bounded governance baseline for AI-assisted moderation, auditable triage, and flexible deployment.
 
-Project link: [your-repository-url]
+Project link: https://github.com/infinitebayas/ai_police
