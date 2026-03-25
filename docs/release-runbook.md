@@ -109,6 +109,6 @@ When sharing the repository link publicly, emphasize:
 - the repository is open for public review and development,
 - multiple deployment paths are supported,
 - local and institutional adopters can adapt it through configuration,
-- direct contact is via LinkedIn only.
+- direct contact is available through LinkedIn and X.
 
 For ready-to-use wording, see `launch-kit.md`.

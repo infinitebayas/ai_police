@@ -16,7 +16,7 @@ Use this checklist before making the repository public or promoting it on social
 - Confirm deployment options are documented for Python, API, Docker, Linux VPS, and Azure.
 - Confirm database support is documented for PostgreSQL, MySQL, and MariaDB.
 - Confirm government-readiness and compliance notes are present and do not make unsupported certification claims.
-- Confirm public-contact instructions point only to LinkedIn.
+- Confirm public-contact instructions point to the approved public profiles.
 
 ## Technical Validation
 

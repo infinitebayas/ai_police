@@ -62,6 +62,7 @@ For conflict-affected settings, keep deployment limited to civilian protection, 
 
 ## Contact for Institutional Discussions
 
-For government, public-sector, institutional, and implementation inquiries, use only:
+For government, public-sector, institutional, and implementation inquiries, use:
 
-- https://www.linkedin.com/in/infinitebayas/
+- [LinkedIn](https://www.linkedin.com/in/infinitebayas/)
+- [X](https://x.com/InfiniteBayas)

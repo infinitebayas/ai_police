@@ -180,9 +180,10 @@ Set `AI_POLICE_BASE_PATH` in `.env` when the app must live under a path such as 
 
 ## Public and Institutional Contact
 
-For all public, government, institutional, partnership, or implementation inquiries, use only:
+For all public, government, institutional, partnership, or implementation inquiries, use:
 
 - [LinkedIn](https://www.linkedin.com/in/infinitebayas/)
+- [X](https://x.com/InfiniteBayas)
 
 For open-source collaboration, continue using GitHub issues and pull requests.
 

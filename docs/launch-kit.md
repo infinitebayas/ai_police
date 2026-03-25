@@ -14,6 +14,11 @@ Open public-interest framework for lawful AI-assisted moderation, auditable tria
 
 Use the GitHub repository URL first. Add a project site later only if it reflects the same lawful, support-first scope.
 
+## Public Profile Links
+
+- LinkedIn: <https://www.linkedin.com/in/infinitebayas/>
+- X: <https://x.com/InfiniteBayas>
+
 ## Suggested Repository Topics
 
 - ai-governance
@@ -71,9 +76,11 @@ Today I am publishing AI Police as an open public-interest repository for lawful
 The repository includes governance documentation, a runnable Python baseline, API and UI layers, deployment options, and optional database support. It is designed for public review, local verification, and jurisdiction-aware adaptation before any live institutional rollout.
 
 Project link: <https://github.com/infinitebayas/ai_police>
+Public profiles: <https://www.linkedin.com/in/infinitebayas/> and <https://x.com/InfiniteBayas>
 
 ## Suggested Short Announcement Post
 
 AI Police is now public: an open, support-first, law-bounded governance baseline for AI-assisted moderation, auditable triage, and flexible deployment.
 
 Project link: <https://github.com/infinitebayas/ai_police>
+Public profiles: <https://www.linkedin.com/in/infinitebayas/> and <https://x.com/InfiniteBayas>
