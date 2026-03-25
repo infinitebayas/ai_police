@@ -6,6 +6,10 @@ Use this page when setting up the public GitHub repository and writing the first
 
 Public-interest governance framework for AI-assisted moderation, support-first triage, and lawful escalation across digital public spaces.
 
+Shorter fallback:
+
+Open public-interest framework for lawful AI-assisted moderation, auditable triage, and support-first governance workflows.
+
 ## Suggested Website or Homepage Field
 
 Use the GitHub repository URL first. Add a project site later only if it reflects the same lawful, support-first scope.
@@ -55,6 +59,10 @@ Versioned release notes are also stored in `docs/release-notes-v0.1.0.md`.
 ## Suggested GitHub About Section
 
 AI Police is an open repository for lawful, auditable, support-first AI governance workflows. It is designed for public-interest use, institutional review, and jurisdiction-aware adaptation.
+
+Shorter About text:
+
+Lawful, auditable, support-first AI governance workflows for public-interest and institutional adaptation.
 
 ## Suggested Announcement Post
 
