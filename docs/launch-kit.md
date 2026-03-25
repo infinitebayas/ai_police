@@ -50,6 +50,8 @@ This initial public release includes:
 - container, Linux VPS, and Azure deployment guidance,
 - local verification and GitHub publication runbooks.
 
+Versioned release notes are also stored in `docs/release-notes-v0.1.0.md`.
+
 ## Suggested GitHub About Section
 
 AI Police is an open repository for lawful, auditable, support-first AI governance workflows. It is designed for public-interest use, institutional review, and jurisdiction-aware adaptation.
