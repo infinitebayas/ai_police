@@ -1,0 +1,26 @@
+services:
+  ai-police:
+    env_file:
+      - ../../.env
+    environment:
+      AI_POLICE_HOST: 0.0.0.0
+      AI_POLICE_DATABASE_URL: mysql+pymysql://ai_police:change-me@mariadb:3306/ai_police
+    depends_on:
+      - mariadb
+    ports:
+      - "${AI_POLICE_PORT:-8000}:${AI_POLICE_PORT:-8000}"
+
+  mariadb:
+    image: mariadb:11
+    environment:
+      MARIADB_DATABASE: ai_police
+      MARIADB_USER: ai_police
+      MARIADB_PASSWORD: change-me
+      MARIADB_ROOT_PASSWORD: root-change-me
+    ports:
+      - "3306:3306"
+    volumes:
+      - mariadb_data:/var/lib/mysql
+
+volumes:
+  mariadb_data:

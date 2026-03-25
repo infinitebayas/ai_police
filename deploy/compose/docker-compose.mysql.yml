@@ -1,0 +1,27 @@
+services:
+  ai-police:
+    env_file:
+      - ../../.env
+    environment:
+      AI_POLICE_HOST: 0.0.0.0
+      AI_POLICE_DATABASE_URL: mysql+pymysql://ai_police:change-me@mysql:3306/ai_police
+    depends_on:
+      - mysql
+    ports:
+      - "${AI_POLICE_PORT:-8000}:${AI_POLICE_PORT:-8000}"
+
+  mysql:
+    image: mysql:8.4
+    environment:
+      MYSQL_DATABASE: ai_police
+      MYSQL_USER: ai_police
+      MYSQL_PASSWORD: change-me
+      MYSQL_ROOT_PASSWORD: root-change-me
+    ports:
+      - "3306:3306"
+    command: --default-authentication-plugin=mysql_native_password
+    volumes:
+      - mysql_data:/var/lib/mysql
+
+volumes:
+  mysql_data:

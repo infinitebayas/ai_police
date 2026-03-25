@@ -1,0 +1,8 @@
+{
+  "jurisdiction": "US",
+  "summary": "A school receives a report of repeated cyberbullying affecting a student after school hours.",
+  "involves_child": true,
+  "cyberbullying_indicator": true,
+  "evidence_available": true,
+  "tags": ["school", "cyberbullying", "youth-safety"]
+}

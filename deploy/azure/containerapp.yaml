@@ -1,0 +1,25 @@
+properties:
+  managedEnvironmentId: /subscriptions/<subscription-id>/resourceGroups/<resource-group>/providers/Microsoft.App/managedEnvironments/<environment-name>
+  configuration:
+    ingress:
+      external: true
+      targetPort: 8000
+      transport: auto
+    secrets: []
+  template:
+    containers:
+      - name: ai-police
+        image: <registry-name>.azurecr.io/ai-police:latest
+        env:
+          - name: AI_POLICE_HOST
+            value: 0.0.0.0
+          - name: AI_POLICE_PORT
+            value: "8000"
+          - name: AI_POLICE_BASE_PATH
+            value: ""
+        resources:
+          cpu: 0.5
+          memory: 1Gi
+    scale:
+      minReplicas: 1
+      maxReplicas: 3

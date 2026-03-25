@@ -1,0 +1,23 @@
+{
+  "name": "India Public-Interest Support",
+  "mode": "support-first",
+  "allowed_review_channels": [
+    "platform",
+    "welfare_or_support",
+    "agency_review",
+    "emergency_review"
+  ],
+  "require_human_review_for_all": true,
+  "crisis_sensitive": false,
+  "child_safety_priority": true,
+  "women_safety_priority": true,
+  "public_nodal_support_enabled": true,
+  "support_resources": {
+    "policy_context": "Use state and union territory routing with nodal review where required.",
+    "focus": "Cybercrime reporting support for women and children."
+  },
+  "notes": [
+    "Use multilingual intake where possible.",
+    "Public nodal support must not close cases without institutional review."
+  ]
+}

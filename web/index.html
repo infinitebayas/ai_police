@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>__AI_POLICE_APP_NAME__</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Source+Serif+4:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="__AI_POLICE_BASE_PATH__/assets/styles.css">
+  </head>
+  <body data-base-path="__AI_POLICE_BASE_PATH__">
+    <main class="shell">
+      <section class="hero">
+        <p class="eyebrow">Public-Interest Triage Workspace</p>
+        <h1>AI Police</h1>
+        <p class="lede">A support-first assessment workspace for teams that need a flexible developer baseline across local Python, API, container, and GitHub-driven workflows.</p>
+        <div class="hero-grid">
+          <article>
+            <h2>Flexible by default</h2>
+            <p>Run it as a Python module, expose it as an API, containerize it, or extend it into other interfaces without changing the core assessment service.</p>
+          </article>
+          <article>
+            <h2>Safe by design</h2>
+            <p>The baseline routes cases toward support, review, and documentation. It does not implement autonomous punitive actions.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="panel grid">
+        <div class="card">
+          <div class="card-header">
+            <h2>Assessment Input</h2>
+            <p>Choose a profile, describe a case, and generate a recommendation.</p>
+          </div>
+          <form id="assessment-form" class="form-stack">
+            <label>
+              Profile
+              <select id="profile" name="profile_name"></select>
+            </label>
+            <label>
+              Jurisdiction
+              <input id="jurisdiction" name="jurisdiction" value="US" required>
+            </label>
+            <label>
+              Case Summary
+              <textarea id="summary" name="summary" rows="5" placeholder="Describe the case context in neutral terms." required></textarea>
+            </label>
+            <div class="toggle-grid">
+              <label><input type="checkbox" id="involves_child"> Involves child</label>
+              <label><input type="checkbox" id="involves_woman"> Involves woman</label>
+              <label><input type="checkbox" id="cyberbullying_indicator"> Cyberbullying indicator</label>
+              <label><input type="checkbox" id="harassment_indicator"> Harassment indicator</label>
+              <label><input type="checkbox" id="exploitation_indicator"> Exploitation indicator</label>
+              <label><input type="checkbox" id="imminent_threat"> Imminent threat</label>
+              <label><input type="checkbox" id="crisis_context"> Crisis context</label>
+              <label><input type="checkbox" id="requested_by_public_nodal_support"> Public nodal request</label>
+            </div>
+            <button type="submit">Generate Recommendation</button>
+          </form>
+        </div>
+
+        <div class="card output-card">
+          <div class="card-header">
+            <h2>Assessment Output</h2>
+            <p>JSON output is preserved so contributors can reuse the same result in scripts, tests, or hosted services.</p>
+          </div>
+          <div id="status" class="status">Loading profiles...</div>
+          <pre id="output">{}</pre>
+        </div>
+      </section>
+
+      <section class="panel notes">
+        <div class="card wide">
+          <div class="card-header">
+            <h2>Deployment Paths</h2>
+            <p>Use the same core package in multiple ways.</p>
+          </div>
+          <div class="path-grid">
+            <article>
+              <h3>Python module</h3>
+              <p><code>python -m ai_police recommend ...</code></p>
+            </article>
+            <article>
+              <h3>API service</h3>
+              <p>Run with Uvicorn and connect your own clients or forms.</p>
+            </article>
+            <article>
+              <h3>Container</h3>
+              <p>Use the Dockerfile and compose stack for local or hosted deployments.</p>
+            </article>
+            <article>
+              <h3>GitHub workflow</h3>
+              <p>Use CI as the baseline and extend for packages, releases, or site deploys.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script type="module" src="__AI_POLICE_BASE_PATH__/assets/app.js"></script>
+  </body>
+</html>

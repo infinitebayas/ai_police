@@ -1,0 +1,22 @@
+{
+  "name": "Conflict-Sensitive Civilian Protection",
+  "mode": "referral-first",
+  "allowed_review_channels": [
+    "welfare_or_support",
+    "agency_review",
+    "emergency_review"
+  ],
+  "require_human_review_for_all": true,
+  "crisis_sensitive": true,
+  "child_safety_priority": true,
+  "women_safety_priority": true,
+  "public_nodal_support_enabled": false,
+  "support_resources": {
+    "policy_context": "Use civilian protection and humanitarian referral pathways only.",
+    "focus": "Women, children, and displaced civilians in high-risk settings."
+  },
+  "notes": [
+    "Do not position this profile as an intelligence or coercive operations tool.",
+    "Use least-intrusive handling and strict confidentiality controls."
+  ]
+}

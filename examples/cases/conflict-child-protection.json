@@ -1,0 +1,9 @@
+{
+  "jurisdiction": "Conflict-Affected",
+  "summary": "A displaced child may be at exploitation risk and support services are operating under crisis conditions.",
+  "involves_child": true,
+  "exploitation_indicator": true,
+  "crisis_context": true,
+  "evidence_available": false,
+  "tags": ["child-protection", "displacement", "crisis"]
+}

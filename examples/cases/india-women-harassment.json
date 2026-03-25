@@ -1,0 +1,9 @@
+{
+  "jurisdiction": "India",
+  "summary": "A woman reports repeated online harassment and requests help through a public nodal support channel.",
+  "involves_woman": true,
+  "harassment_indicator": true,
+  "evidence_available": true,
+  "requested_by_public_nodal_support": true,
+  "tags": ["women-safety", "public-nodal-support", "digital-harassment"]
+}

@@ -1,0 +1,17 @@
+[Unit]
+Description=AI Police API Service
+After=network.target
+
+[Service]
+Type=simple
+User=www-data
+Group=www-data
+WorkingDirectory=/opt/ai-police
+EnvironmentFile=/opt/ai-police/.env
+Environment=PYTHONUNBUFFERED=1
+ExecStart=/opt/ai-police/.venv/bin/python -m ai_police serve
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

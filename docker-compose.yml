@@ -1,0 +1,10 @@
+services:
+  ai-police:
+    build: .
+    env_file:
+      - .env
+    environment:
+      AI_POLICE_HOST: 0.0.0.0
+    ports:
+      - "${AI_POLICE_PORT:-8000}:${AI_POLICE_PORT:-8000}"
+    restart: unless-stopped
